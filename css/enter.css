@@ -1,0 +1,251 @@
+@font-face {
+    font-family: neosanspro;
+    src: url("/fonts/NeoSans/NeoSansPro-Regular.ttf");
+}
+
+@font-face {
+    font-family: neosanspro_ultra;
+    src: url("/fonts/NeoSans/NeoSansPro-Ultra.ttf");
+}
+
+@font-face{
+    font-family: neosanspro_bold;
+    src: url("/fonts/NeoSans/NeoSansPro-Bold.ttf");
+}
+
+@font-face {
+    font-family: neosanscyr_regular;
+    src: url("/fonts/NeoSans/NeoSansCyr-Regular.ttf");
+}
+
+@font-face {
+    font-family: neosanspro_light;
+    src: url("/fonts/NeoSans/NeoSansPro-Light.ttf");
+}
+
+@font-face {
+    font-family: neosanspro_medium;
+    src: url("/fonts/NeoSans/NeoSansPro-Medium.ttf");
+}
+
+html{
+
+}
+
+body{
+    margin: 0;
+    background-image: url("/image/enter-1170px.jpg");
+    /*background-image: url("/image/background.jpg");*/
+    background-size: 1300px auto;
+    background-repeat: no-repeat;
+}
+
+.background_left{
+    position: absolute;
+    left: 0px;
+    background-image: url("/image/background_left.png");
+    background-repeat: no-repeat;
+    width: 260px;
+    height: 800px;
+}
+
+.background_right{
+    position: absolute;
+    right: 0px;
+    background-image: url("/image/background_right.png");
+    background-repeat: no-repeat;
+    width: 260px;
+    height: 800px;
+}
+
+.login{
+    float: none;
+    padding-top: 42px;
+    text-align: center;
+    position: relative;
+    transform: translateX(29%);
+}
+
+.login a{
+    font-family: neosanspro;
+    font-size: 11px;
+    padding-left: 0px;
+    padding-right: 6px;
+}
+
+@media (max-width: 768px) {
+    .login{
+        float: none;
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 59px;
+        text-align: center;
+    }
+
+    .nav1{
+        float: none;
+        text-align: center;
+    }
+
+    .nav2{
+        float: none;
+        text-align: center;
+    }
+}
+
+
+
+.logo{
+    /*border: solid white;*/
+    position: absolute !important;
+    left: 50%;
+    transform: translateX(-62%);
+    top: -59px !important;
+}
+
+.nav1{
+    padding-top: 22px;
+    float: right;
+}
+.nav1 a{
+    color: black;
+    font-size: 16px;
+    padding-left: 46px;
+    font-family: neosanspro;
+    white-space: nowrap;
+}
+
+.nav2 a{
+    color: black;
+    font-size: 16px;
+    padding-right: 48px;
+    font-family: neosanspro;
+}
+
+.nav2{
+    float: left;
+    padding-top: 22px;
+    padding-left: 10px;
+}
+
+.name h2, .content h3, .text h5, .motto h2, input[type=submit]{
+    color: black;
+}
+
+.name h1{
+    font-family: neosanspro_ultra;
+    font-size: 30px;
+    white-space: nowrap;
+    color: black;
+}
+
+.name {
+    position: absolute;
+    left: 50%;
+    top: 68px;
+    transform: translateX(-50%);
+    padding-top: 0px;
+}
+
+.name h2{
+    text-align: center;
+}
+
+/**************CONTENT****************/
+.profile{
+    padding-top: 107px;
+    text-align: center;
+    display: block;
+}
+.profile h2{
+    font-family: neosanspro_medium;
+    font-size: 29px;
+}
+
+.profile img{
+    position: relative;
+    top: -15px;
+}
+
+.personal_cabinet{
+    padding-top: 18px;
+}
+.personal_cabinet h3{
+    text-align: right;
+    font-family: neosanspro_medium;
+    font-size: 18px;
+}
+.registration{
+    padding-left: 19px;
+    padding-top: 18px;
+}
+.registration h3{
+    font-family: neosanspro_medium;
+    font-size: 18px;
+}
+/**************FOOTER****************/
+.main_sign{
+    padding-top: 238px;
+    line-height: 14px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 145px;
+    display: block;
+    text-align: center;
+}
+.main_sign p{
+    font-family: neosanspro;
+    font-size: 14px;
+}
+.main_sign img{
+    position: relative;
+    top: -7px;
+}
+.signature{
+    color: gray;
+}
+
+.signature1{
+    text-align: center;
+    position: relative;
+    font-family: neosanspro_light;
+
+}
+
+.signature2{
+    position: relative;
+    text-align: center;
+
+    font-family: neosanspro_light;
+    padding-top: 2px;
+    font-size: 13px;
+    color: black;
+}
+
+.signature3{
+    position: relative;
+    left: 50%;
+    font-family: neosanspro_light;
+    padding-top: 2px;
+    font-size: 13px;
+    color: black;
+    float: left;
+}
+
+.signature3 p::after{
+    content: url("/image/web_studio.png");
+    display: block;
+    float: right;
+}
+
+.picture{
+    float: left;
+    padding-right: 3px;
+}
+.sign{
+    float: left;
+    padding-top: 3px;
+    font-size: 13px;
+    color: black;
+}
