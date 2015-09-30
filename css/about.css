@@ -23,23 +23,39 @@
     src: url("/fonts/NeoSans/NeoSansPro-Light.ttf");
 }
 
+@font-face {
+    font-family: neosanspro_medium;
+    src: url("/fonts/NeoSans/NeoSansPro-Medium.ttf");
+}
+
 html{
 
 }
 
 body{
     margin: 0;
-    /*background-image: url("/image/main_1170px.png");*/
-    background-image: url("/image/background.jpg");
+    /*background-image: url("/image/about-1170px.jpg");*/
+    /*background-image: url("/image/background.jpg");*/
     background-size: 1300px auto;
     background-repeat: no-repeat;
 }
 
-.header{
+.background_left{
+    position: absolute;
+    left: 0px;
+    background-image: url("/image/background_left.png");
+    background-repeat: no-repeat;
+    width: 260px;
+    height: 800px;
 }
 
-.row{
-    /*border: solid white;*/
+.background_right{
+    position: absolute;
+    right: 0px;
+    background-image: url("/image/background_right.png");
+    background-repeat: no-repeat;
+    width: 260px;
+    height: 800px;
 }
 
 .login{
@@ -77,16 +93,14 @@ body{
     }
 }
 
+
+
 .logo{
     /*border: solid white;*/
     position: absolute !important;
     left: 50%;
-    transform: translateX(-50%);
-    top: -43px !important;
-}
-
-.col-xs-5, .col-xs-2{
-    /*border: solid white;*/
+    transform: translateX(-62%);
+    top: -59px !important;
 }
 
 .nav1{
@@ -94,7 +108,7 @@ body{
     float: right;
 }
 .nav1 a{
-    color: white;
+    color: black;
     font-size: 16px;
     padding-left: 46px;
     font-family: neosanspro;
@@ -102,7 +116,7 @@ body{
 }
 
 .nav2 a{
-    color: white;
+    color: black;
     font-size: 16px;
     padding-right: 48px;
     font-family: neosanspro;
@@ -115,14 +129,14 @@ body{
 }
 
 .name h2, .content h3, .text h5, .motto h2, input[type=submit]{
-    color: white;
+    color: black;
 }
 
 .name h1{
     font-family: neosanspro_ultra;
     font-size: 30px;
     white-space: nowrap;
-    color: white;
+    color: black;
 }
 
 .name {
@@ -137,106 +151,54 @@ body{
     text-align: center;
 }
 
-.content{
+/**************CONTENT****************/
+.about{
+    display: block;
+    text-align: center;
+}
+
+.about h2{
+    padding-top: 106px;
+    font-family: neosanspro_medium;
+    font-size: 30px;
+}
+.about img{
     position: relative;
-    text-align: center;
-    padding-left: 0px;
+    top: -15px;
 }
 
-.content h2{
-    padding-top: 6px;
-    font-family: neosanspro_bold;
-    font-size: 22px;
-    color: white;
-}
-
-.content span{
-    color: white;
-    font-size: 35px;
-}
-
-.shield{
-    position: relative;
-    text-align: center;
-}
-
-.text1 h4{
-    font-family: neosanspro_bold;
-    font-size: 14px;
-    color: white;
-}
-
-.hands {
-    position: relative;
-    text-align: center;
-}
-
-.text2 h4{
-    font-family: neosanspro_bold;
-    font-size: 14px;
-    color: white;
-}
-
-.weigher{
-    position: relative;
-    text-align: center;
-}
-
-.text3 h4{
-    font-family: neosanspro_bold;
-    font-size: 14px;
-    color: white;
-}
-
-@media (max-width: 768px) {
-    .shield{
-        float: none;
-        text-align: center;
-        padding-right: 0px;
-    }
-    .hands{
-        /*float: none;*/
-        text-align: center;
-    }
-    .weigher{
-        float: none;
-        padding-top: 36px;
-        padding-left: 0px;
-        text-align: center;
-    }
-}
-
-.motto h3{
-    text-align: center;
+.content1 p{
+    line-height: 14px;
+    padding-top: 36px;
     font-family: neosanspro;
-    font-size: 26px;
-    text-shadow: 6px 5px 4px rgba(0, 0, 0, 0);
-    color: white;
+    font-size: 14px;
+}
+.content2 p{
+    line-height: 14px;
+    padding-top: 36px;
+    font-family: neosanspro;
+    font-size: 14px;
 }
 
-.form-group input[type=submit]{
-
-}
-
-.motto{
-    position: relative;
-}
-
-.button{
+.main_sign{
+    padding-top: 238px;
+    line-height: 14px;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    border: medium solid orange;
-    width: 195px;
-    height: 36px;
-    padding-top: 4px;
-    text-align: center;
-    font-family: neosanspro_bold;
-    color: white;
-    font-size: 14px;
-    text-decoration: none;
+    width: 145px;
     display: block;
+    text-align: center;
 }
+.main_sign p{
+    font-family: neosanspro;
+    font-size: 14px;
+}
+.main_sign img{
+    position: relative;
+    top: -7px;
+}
+/**************FOOTER****************/
 
 .signature{
     color: gray;
@@ -256,7 +218,7 @@ body{
     font-family: neosanspro_light;
     padding-top: 2px;
     font-size: 13px;
-    color: white;
+    color: black;
 }
 
 .signature3{
@@ -265,7 +227,7 @@ body{
     font-family: neosanspro_light;
     padding-top: 2px;
     font-size: 13px;
-    color: white;
+    color: black;
     float: left;
 }
 
@@ -283,6 +245,5 @@ body{
     float: left;
     padding-top: 3px;
     font-size: 13px;
-    color: white;
+    color: black;
 }
-
