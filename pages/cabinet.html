@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/bootstrap-3.3.5-dist/css/bootstrap.css" rel="stylesheet">
     <link href="/bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/css/about.css" rel="stylesheet">
+    <link href="/css/cabinet.css" rel="stylesheet">
 </head>
 <body>
 <div class="background_left"></div>
@@ -54,33 +54,58 @@
 <div class="body">
     <div class="container">
         <div class="row">
-            <div class="about col-xs-12">
-                <h2>О НАС</h2>
-                <img src="/image/line.png"/>
+
+            <div class="col-sm-4" style="position: relative; right: -32px;">
+                <form role="form" style="padding-top: 64px;">
+                    <div class="form-group" style="text-align: center; position: relative; right: -18%;">
+                        <div class="left_field_photo"><input type="image" width="150px" src="/image/no_photo.png"/></div>
+                        <div class="left_field"><input type="text" placeholder="ft@fueltrade.com.ua"/></div>
+                        <div class="left_field"><input type="text" placeholder="Пароль"/></div>
+                        <div class="left_field"><input type="text" placeholder="Повторить пароль"/></div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="profile">
+                    <h2>ЛИЧНЫЙ КАБИНЕТ</h2>
+                    <img src="/image/line.png"/>
+                </div>
+                <div class="center_input"><input placeholder="Название Компании / ФИО" type="text"/></div>
+                <div class="center_input"><input placeholder="Код ЕДРПОУ / ИНН" type="text"/></div>
+                <div class="center_input"><input placeholder="Юридический адрес" type="text"/></div>
+                <div class="center_input"><input placeholder="Фактический адрес" type="text"/></div>
+                <div class="center_input"><input placeholder="Контактный телефон" type="text"/></div>
+            </div>
+
+            <div class="col-sm-4" style="position: relative; left: -31px">
+                <div class="bank_details">
+                    <h2>БАНКОВСКИЕ РЕКВИЗИТЫ</h2>
+                </div>
+                <form role="form" style="padding-top: 11px;">
+                    <div class="form-group reg">
+                        <div class="right_field"><input type="text" placeholder="Название банка"/></div>
+                        <div class="right_field"><input type="text" placeholder="МФО банка"/></div>
+                        <div class="right_field"><input type="text" placeholder="ЕДРПОУ банка"/></div>
+                        <div class="right_field"><input type="text" placeholder="Расчетный счёт"/></div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+
+        <div class="row" style="padding-bottom: 67px;">
+            <div class="col-xs-12">
+                <form role="form">
+                    <div class="form-group reg">
+                        <div class="submit"><input type="submit" value="СОХРАНИТЬ"/></div>
+                    </div>
+                </form>
             </div>
         </div>
-        <div class="row">
-            <div class="content1 col-sm-5 col-sm-offset-1">
-                <p>FuelTrade - украинская инновация. Мы - первая биржа
-                    узкоспециализированная биржа контактов, которая объединяет
-                    трейдеров со всей Украины, вне зависимости от того, каким видом
-                    энергоносителей они торгуют. Мыпомогаем трейдерам найти друг
-                    друга, и поднимаем рынок энергоносителей на новый этап. На этап
-                    быстрой торговли. Чтобы ускорить процесс купли-продажы, мы так же
-                    предоставляем сервис юридического сопровождения.</p>
-            </div>
-            <div class="content2 col-sm-5">
-                <p>Команда наших высококвалифицированных юристов предоставит
-                    полный пакет документов, и Вы можете быть уверены, что позади Вас
-                    стоит сильная «буква закона».Конечно же мы учли барьер между
-                    предпринимателями не знающими друг друга. Для этого на нашем
-                    сайте предоставляется сервис проверки другой стороны. В услугу
-                    проверки входит проверка компании/предпринимателя/трейдера
-                    через официальные и неофициальные каналы. Мы дадим Вам
-                    полную информацию о запрашиваемой стороне.</p>
-            </div>
-        </div>
+
     </div>
+
 </div>
 
 <footer class="footer">

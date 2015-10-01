@@ -1,0 +1,404 @@
+@font-face {
+    font-family: neosanspro;
+    src: url("/fonts/NeoSans/NeoSansPro-Regular.ttf");
+}
+
+@font-face {
+    font-family: neosanspro_ultra;
+    src: url("/fonts/NeoSans/NeoSansPro-Ultra.ttf");
+}
+
+@font-face{
+    font-family: neosanspro_bold;
+    src: url("/fonts/NeoSans/NeoSansPro-Bold.ttf");
+}
+
+@font-face {
+    font-family: neosanscyr_regular;
+    src: url("/fonts/NeoSans/NeoSansCyr-Regular.ttf");
+}
+
+@font-face {
+    font-family: neosanspro_light;
+    src: url("/fonts/NeoSans/NeoSansPro-Light.ttf");
+}
+
+@font-face {
+    font-family: neosanspro_medium;
+    src: url("/fonts/NeoSans/NeoSansPro-Medium.ttf");
+}
+
+html{
+
+}
+
+body{
+    margin: 0;
+    /*background-image: url("/image/kabinet-1170px.jpg");*/
+    /*background-image: url("/image/background.jpg");*/
+    background-size: 1300px auto;
+    background-repeat: no-repeat;
+}
+
+.background_left{
+    position: absolute;
+    left: 0px;
+    background-image: url("/image/background_left.png");
+    background-repeat: no-repeat;
+    width: 260px;
+    height: 800px;
+}
+
+.background_right{
+    position: absolute;
+    right: 0px;
+    background-image: url("/image/background_right.png");
+    background-repeat: no-repeat;
+    width: 260px;
+    height: 800px;
+}
+
+.login{
+    float: none;
+    padding-top: 42px;
+    text-align: center;
+    position: relative;
+    transform: translateX(29%);
+}
+
+.login a{
+    font-family: neosanspro;
+    font-size: 11px;
+    padding-left: 0px;
+    padding-right: 6px;
+}
+
+@media (max-width: 768px) {
+    .login{
+        float: none;
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 59px;
+        text-align: center;
+    }
+
+    .nav1{
+        float: none;
+        text-align: center;
+    }
+
+    .nav2{
+        float: none;
+        text-align: center;
+    }
+}
+
+
+
+.logo{
+    /*border: solid white;*/
+    position: absolute !important;
+    left: 50%;
+    transform: translateX(-62%);
+    top: -59px !important;
+}
+
+.nav1{
+    padding-top: 22px;
+    float: right;
+}
+.nav1 a{
+    color: black;
+    font-size: 16px;
+    padding-left: 46px;
+    font-family: neosanspro;
+    white-space: nowrap;
+}
+
+.nav2 a{
+    color: black;
+    font-size: 16px;
+    padding-right: 48px;
+    font-family: neosanspro;
+}
+
+.nav2{
+    float: left;
+    padding-top: 22px;
+    padding-left: 10px;
+}
+
+.name h2, .content h3, .text h5, .motto h2, input[type=submit]{
+    color: black;
+}
+
+.name h1{
+    font-family: neosanspro_ultra;
+    font-size: 30px;
+    white-space: nowrap;
+    color: black;
+}
+
+.name {
+    position: absolute;
+    left: 50%;
+    top: 68px;
+    transform: translateX(-50%);
+    padding-top: 0px;
+}
+
+.name h2{
+    text-align: center;
+}
+
+/**************CONTENT****************/
+.profile{
+    text-align: center;
+    padding-top: 107px;
+    padding-bottom: 38px;
+    display: block;
+}
+.profile h2{
+    white-space: nowrap;
+    font-family: neosanspro_medium;
+    font-size: 29px;
+}
+
+.profile img{
+    position: relative;
+    top: -15px;
+}
+
+
+.left_field{
+    text-align: center;
+    padding-bottom: 15px;
+}
+.left_field_photo{
+    padding-bottom: 8px;
+}
+.left_field input[type="text"]{
+    width: 225px;
+    text-align: center;
+    font-family: neosanspro_medium;
+    font-size: 12px;
+    height: 30px;
+    opacity: 1;
+    border: 1px solid rgb(198, 201, 225);
+    color: rgb(191, 191, 191);
+}
+.center_input{
+    text-align: center;
+    padding-bottom: 15px;
+}
+.center_input input[type="text"]{
+    width: 225px;
+    text-align: center;
+    font-family: neosanspro_medium;
+    font-size: 12px;
+    height: 30px;
+    opacity: 1;
+    border: 1px solid rgb(198, 201, 225);
+    color: rgb(191, 191, 191);
+}
+
+.right_field{
+    padding-bottom: 15px;
+}
+
+
+.right_field input[type="text"]{
+    width: 225px;
+    text-align: center;
+    font-family: neosanspro_medium;
+    font-size: 12px;
+    height: 30px;
+    opacity: 1;
+    border: 1px solid rgb(198, 201, 225);
+    color: rgb(191, 191, 191);
+}
+
+.bank_details{
+    padding-top: 211px;
+
+}
+
+.bank_details h2{
+    font-family: neosanspro_medium;
+    font-size: 18px;
+}
+
+/*.personal_cabinet{*/
+    /*padding-top: 18px;*/
+/*}*/
+
+/*.personal_cabinet h3{*/
+    /*position: relative;*/
+    /*left: 53%;*/
+    /*font-family: neosanspro_medium;*/
+    /*font-size: 18px;*/
+/*}*/
+/*.registration{*/
+    /*padding-top: 18px;*/
+/*}*/
+/*.registration h3{*/
+    /*position: relative;*/
+    /*right: -21%;*/
+    /*font-family: neosanspro_medium;*/
+    /*font-size: 18px;*/
+/*}*/
+
+/*.cabinet input[type=text]{*/
+    /*width: 225px;*/
+    /*text-align: center;*/
+    /*font-family: neosanspro_medium;*/
+    /*font-size: 12px;*/
+    /*height: 30px;*/
+    /*opacity: 1;*/
+    /*border: 1px solid rgb(198, 201, 225);*/
+    /*color: rgb(191, 191, 191);*/
+/*}*/
+/*.reg input[type=text]{*/
+    /*width: 225px;*/
+    /*text-align: center;*/
+    /*font-family: neosanspro_medium;*/
+    /*font-size: 12px;*/
+    /*height: 30px;*/
+    /*opacity: 1;*/
+    /*border: 1px solid rgb(198, 201, 225);*/
+    /*color: rgb(191, 191, 191);*/
+/*}*/
+
+/*.cabinet input[type=submit]{*/
+    /*color: #5662AD;*/
+    /*font-family: neosanspro_bold;*/
+    /*width: 165px;*/
+    /*border: 2px solid rgb(86, 98, 173);*/
+    /*background: rgb(246, 246, 247) none repeat scroll 0% 0%;*/
+    /*padding: 6px;*/
+/*}*/
+
+/*.cabinet input[type=submit]:hover {*/
+    /*box-shadow: inset 0px -20px 20px #ffffff;*/
+/*}*/
+/*.cabinet input[type=submit]:active {*/
+    /*margin-top: 1px;*/
+    /*margin-bottom: -1px;*/
+    /*zoom: 1;*/
+/*}*/
+
+
+
+/*.cabinet .e_mail{*/
+    /*padding-bottom: 15px;*/
+    /*position: relative;*/
+    /*left: 47%;*/
+/*}*/
+/*.cabinet .password{*/
+    /*padding-bottom: 29px;*/
+    /*position: relative;*/
+    /*left: 47%;*/
+/*}*/
+/*.cabinet .submit{*/
+    /*position: relative;*/
+    /*left: 26%;*/
+    /*display: block;*/
+/*}*/
+
+/*.reg .e_mail{*/
+    /*padding-bottom: 15px;*/
+    /*position: relative;*/
+    /*left: 12%;*/
+/*}*/
+/*.reg .password{*/
+    /*padding-bottom: 28px;*/
+    /*position: relative;*/
+    /*left: 12%;*/
+/*}*/
+.reg input[type=submit]{
+    color: #5662AD;
+    font-family: neosanspro_bold;
+    width: 164px;
+    border: 2px solid rgb(86, 98, 173);
+    background: rgb(246, 246, 247) none repeat scroll 0% 0%;
+    padding: 6px;
+}
+
+.reg input[type=submit]:hover {
+    box-shadow: inset 0px -20px 20px #ffffff;
+}
+.reg input[type=submit]:active {
+    margin-top: 1px;
+    margin-bottom: -1px;
+    zoom: 1;
+}
+
+.reg .submit{
+    text-align: center;
+    display: block;
+}
+/**************FOOTER****************/
+.main_sign{
+    line-height: 14px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 145px;
+    display: block;
+    text-align: center;
+}
+.main_sign p{
+    font-family: neosanspro;
+    font-size: 14px;
+}
+.main_sign img{
+    position: relative;
+    top: -7px;
+}
+.signature{
+    color: gray;
+}
+
+.signature1{
+    text-align: center;
+    position: relative;
+    font-family: neosanspro_light;
+
+}
+
+.signature2{
+    position: relative;
+    text-align: center;
+
+    font-family: neosanspro_light;
+    padding-top: 2px;
+    font-size: 13px;
+    color: black;
+}
+
+.signature3{
+    position: relative;
+    left: 50%;
+    font-family: neosanspro_light;
+    padding-top: 2px;
+    font-size: 13px;
+    color: black;
+    float: left;
+}
+
+.signature3 p::after{
+    content: url("/image/web_studio.png");
+    display: block;
+    float: right;
+}
+
+.picture{
+    float: left;
+    padding-right: 3px;
+}
+.sign{
+    float: left;
+    padding-top: 3px;
+    font-size: 13px;
+    color: black;
+}
