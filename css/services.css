@@ -1,0 +1,574 @@
+@font-face {
+    font-family: neosanspro;
+    src: url("/fonts/NeoSans/NeoSansPro-Regular.ttf");
+}
+
+@font-face {
+    font-family: neosanspro_ultra;
+    src: url("/fonts/NeoSans/NeoSansPro-Ultra.ttf");
+}
+
+@font-face{
+    font-family: neosanspro_bold;
+    src: url("/fonts/NeoSans/NeoSansPro-Bold.ttf");
+}
+
+@font-face {
+    font-family: neosanscyr_regular;
+    src: url("/fonts/NeoSans/NeoSansCyr-Regular.ttf");
+}
+
+@font-face {
+    font-family: neosanspro_light;
+    src: url("/fonts/NeoSans/NeoSansPro-Light.ttf");
+}
+
+@font-face {
+    font-family: neosanspro_medium;
+    src: url("/fonts/NeoSans/NeoSansPro-Medium.ttf");
+}
+
+html{
+
+}
+
+body{
+    margin: 0;
+    /*background-image: url("/image/yslugi-1170px.jpg");*/
+    /*background-image: url("/image/yslugi2-1170px.jpg");*/
+    /*background-image: url("/image/background.jpg");*/
+    background-size: 1300px auto;
+    background-repeat: no-repeat;
+}
+
+.background_left{
+    position: absolute;
+    left: 0px;
+    background-image: url("/image/background_left.png");
+    background-repeat: no-repeat;
+    width: 260px;
+    height: 800px;
+}
+
+.background_right{
+    position: absolute;
+    right: 0px;
+    background-image: url("/image/background_right.png");
+    background-repeat: no-repeat;
+    width: 260px;
+    height: 800px;
+}
+
+.login{
+    float: none;
+    padding-top: 42px;
+    text-align: center;
+    position: relative;
+    transform: translateX(29%);
+}
+
+.login a{
+    font-family: neosanspro;
+    font-size: 11px;
+    padding-left: 0px;
+    padding-right: 6px;
+}
+
+@media (max-width: 768px) {
+    .login{
+        float: none;
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 59px;
+        text-align: center;
+    }
+
+    .nav1{
+        float: none;
+        text-align: center;
+    }
+
+    .nav2{
+        float: none;
+        text-align: center;
+    }
+}
+
+.logo{
+    /*border: solid white;*/
+    position: absolute !important;
+    left: 50%;
+    transform: translateX(-62%);
+    top: -59px !important;
+}
+
+.nav1{
+    padding-top: 22px;
+    float: right;
+}
+.nav1 a{
+    color: black;
+    font-size: 16px;
+    padding-left: 46px;
+    font-family: neosanspro;
+    white-space: nowrap;
+}
+
+.nav2 a{
+    color: black;
+    font-size: 16px;
+    padding-right: 48px;
+    font-family: neosanspro;
+}
+
+.nav2{
+    float: left;
+    padding-top: 22px;
+    padding-left: 10px;
+}
+
+.name h2, .content h3, .text h5, .motto h2, input[type=submit]{
+    color: black;
+}
+
+.name h1{
+    font-family: neosanspro_ultra;
+    font-size: 30px;
+    white-space: nowrap;
+    color: black;
+}
+
+.name {
+    position: absolute;
+    left: 50%;
+    top: 68px;
+    transform: translateX(-50%);
+    padding-top: 0px;
+}
+
+.name h2{
+    text-align: center;
+}
+/**************CONTENT****************/
+.profile{
+    text-align: center;
+    padding-top: 107px;
+    display: block;
+}
+.profile h2{
+    font-family: neosanspro_medium;
+    font-size: 29px;
+}
+
+.profile img{
+    position: relative;
+    top: -15px;
+}
+
+.shield{
+    position: relative;
+    text-align: center;
+}
+
+.shield .image{
+    position: relative;
+    left: 27%;
+}
+.weigher .image{
+    position: relative;
+    right: 27%;
+}
+.text1{
+    padding-bottom: 15px;
+
+}
+.text1 h4{
+    font-family: neosanspro_bold;
+    font-size: 14px;
+    color: black;
+    position: relative;
+    left: 27%;
+}
+.text1_1{
+    padding-bottom: 24px;
+}
+.text1_1 p{
+    font-family: neosanspro;
+    font-size: 14px;
+    line-height: 14px;
+    position: relative;
+    left: 27%;
+}
+
+.order_check {
+    border: 2px solid #5662ad;
+    width: 166px;
+    height: 36px;
+    padding-top: 4px;
+    font-family: neosanspro_bold;
+    color: #5662ad;
+    font-size: 14px;
+    text-decoration: none;
+
+    display: block;
+    position: relative;
+    left: 54%;
+}
+.order_search {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
+    border: 2px solid #5662ad;
+    width: 166px;
+    height: 36px;
+    padding-top: 4px;
+    font-family: neosanspro_bold;
+    color: #5662ad;
+    font-size: 14px;
+    text-decoration: none;
+
+    display: block;
+}
+
+.order_application {
+    border: 2px solid #5662ad;
+    width: 166px;
+    height: 36px;
+    padding-top: 4px;
+    font-family: neosanspro_bold;
+    color: #5662ad;
+    font-size: 14px;
+    text-decoration: none;
+
+    display: block;
+}
+.text2{
+    padding-bottom: 2px;
+}
+.text2_1{
+    padding-bottom: 9px;
+}
+.text2_1 p{
+    font-family: neosanspro;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.text3{
+    padding-bottom: 3px;
+}
+.text3_1{
+    padding-bottom: 8px;
+}
+.text3_1 p{
+    font-family: neosanspro;
+    font-size: 14px;
+    line-height: 14px;
+    position: relative;
+    right: 27%;
+}
+.hands {
+    position: relative;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.text2 h4{
+    font-family: neosanspro_bold;
+    font-size: 14px;
+    color: black;
+}
+
+.weigher{
+    position: relative;
+    text-align: center;
+}
+
+.text3 h4{
+    font-family: neosanspro_bold;
+    font-size: 14px;
+    color: black;
+    position: relative;
+    right: 27%;
+}
+
+@media (max-width: 768px) {
+    .shield{
+        float: none;
+        text-align: center;
+        padding-right: 0px;
+    }
+    .hands{
+        /*float: none;*/
+        text-align: center;
+    }
+    .weigher{
+        float: none;
+        padding-top: 36px;
+        padding-left: 0px;
+        text-align: center;
+    }
+}
+
+.button{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border: medium solid orange;
+    width: 195px;
+    height: 36px;
+    padding-top: 4px;
+    text-align: center;
+    font-family: neosanspro_bold;
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+}
+
+
+/************PROPOSAL*************/
+
+.proposal{
+    display: block;
+    text-align: center;
+    padding-top: 34px;
+}
+.proposal h2{
+    font-family: neosanspro_medium;
+    font-size: 24px;
+}
+.proposal img{
+    position: relative;
+    top: -14px;
+}
+
+.have_to_check_input{
+    padding-bottom: 15px;
+}
+.have_to_check_text h3{
+    font-family: neosanspro_medium;
+    font-size: 18px;
+
+    position: relative;
+    left: 49%;
+
+    padding-bottom: 11px;
+}
+
+.have_to_check_input input[type="text"]{
+    width: 225px;
+    text-align: center;
+    font-family: neosanspro_medium;
+    font-size: 12px;
+    height: 30px;
+    opacity: 1;
+    border: 1px solid rgb(198, 201, 225);
+    color: rgb(191, 191, 191);
+
+    position: relative;
+    left: 47%;
+}
+.have_to_check_text_area textarea{
+    width: 360px;
+    text-align: center;
+    font-family: neosanspro_medium;
+    font-size: 12px;
+    height: 75px;
+    opacity: 1;
+    border: 1px solid rgb(198, 201, 225);
+    color: rgb(191, 191, 191);
+
+    position: relative;
+    left: 35%;
+}
+
+.data_checking_text h3{
+    font-family: neosanspro_medium;
+    font-size: 18px;
+
+    position: relative;
+    left: 19%;
+
+    padding-bottom: 11px;
+}
+.data_checking_input{
+    padding-bottom: 15px;
+}
+
+.data_checking_input1  input[type="text"]{
+    width: 225px;
+    text-align: center;
+    font-family: neosanspro_medium;
+    font-size: 12px;
+    height: 30px;
+    opacity: 1;
+    border: 1px solid rgb(198, 201, 225);
+    color: rgb(191, 191, 191);
+
+    position: relative;
+    left: 21%;
+}
+.data_checking_input2 input[type="text"]{
+    width: 225px;
+    text-align: center;
+    font-family: neosanspro_medium;
+    font-size: 12px;
+    height: 30px;
+    opacity: 1;
+    border: 1px solid rgb(198, 201, 225);
+    color: rgb(191, 191, 191);
+
+    position: relative;
+    left: 21%;
+}
+.data_checking_input3 input[type="text"]{
+    width: 225px;
+    text-align: center;
+    font-family: neosanspro_medium;
+    font-size: 12px;
+    height: 30px;
+    opacity: 1;
+    border: 1px solid rgb(198, 201, 225);
+    color: rgb(191, 191, 191);
+
+    position: relative;
+    left: 21%;
+}
+
+.form_send{
+    text-align: center;
+}
+.squaredFour{
+    padding-left: 42%;
+    padding-right: 35%;
+}
+/* SQUARED FOUR */
+.squaredFour {
+    padding-bottom: 7px;
+    width: 15px;
+    position: relative;
+}
+
+.squaredFour label {
+    cursor: pointer;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 3px;
+    background: #f9f9f9;
+    border: 1px solid rgb(198, 201, 225);
+}
+
+.squaredFour label:after {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+    content: '';
+    position: absolute;
+    width: 9px;
+    height: 5px;
+    background: transparent;
+    top: 3px;
+    left: 3px;
+    border: 3px solid #333;
+    border-top: none;
+    border-right: none;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.squaredFour label:hover::after {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    filter: alpha(opacity=30);
+    opacity: 0.5;
+}
+
+.squaredFour input[type=checkbox]:checked + label:after {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
+
+.squaredFour span{
+    font-family: neosanspro_medium;
+    font-size: 15px;
+    white-space: nowrap;
+    padding-left: 27px;
+}
+.send_submit{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 2px solid #5662AD;
+    width: 166px;
+    height: 36px;
+    padding-top: 4px;
+    font-family: neosanspro_bold;
+    color: #5662AD;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+}
+#row1{
+    display: none;
+}
+#row2{
+    display: none;
+}
+#row3{
+    display: none;
+}
+/***********FOOTER***************/
+.signature{
+    color: gray;
+}
+
+.signature1{
+    text-align: center;
+    position: relative;
+    font-family: neosanspro_light;
+
+}
+
+.signature2{
+    position: relative;
+    text-align: center;
+
+    font-family: neosanspro_light;
+    padding-top: 2px;
+    font-size: 13px;
+    color: black;
+}
+
+.signature3{
+    position: relative;
+    left: 50%;
+    font-family: neosanspro_light;
+    padding-top: 2px;
+    font-size: 13px;
+    color: black;
+    float: left;
+}
+
+.signature3 p::after{
+    content: url("/image/web_studio.png");
+    display: block;
+    float: right;
+}
+
+.picture{
+    float: left;
+    padding-right: 3px;
+}
+.sign{
+    float: left;
+    padding-top: 3px;
+    font-size: 13px;
+    color: black;
+}

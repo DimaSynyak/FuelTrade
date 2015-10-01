@@ -23,6 +23,11 @@
     src: url("/fonts/NeoSans/NeoSansPro-Light.ttf");
 }
 
+@font-face {
+    font-family: neosanspro_medium;
+    src: url("/fonts/NeoSans/NeoSansPro-Medium.ttf");
+}
+
 html{
 
 }
