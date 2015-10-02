@@ -515,15 +515,154 @@ body{
     text-decoration: none;
     display: block;
 }
-#row1{
-    display: none;
+
+/*application form 2*/
+.have_to_find_text1{
+    padding-bottom: 11px;
 }
-#row2{
-    display: none;
+.have_to_find_text1 h3{
+    font-family: neosanspro_medium;
+    font-size: 18px;
+    position: relative;
+    left: 54%;
 }
-#row3{
-    display: none;
+.data_find_select{
+    position: relative;
+    left: 46%;
+    padding-bottom: 15px;
 }
+
+.data_find_select select{
+    width: 225px;
+    text-align: center;
+    font-family: neosanspro_medium;
+    font-size: 12px;
+    height: 30px;
+    opacity: 1;
+    border: 1px solid #C6C9E1;
+    color: #BFBFBF;
+}
+
+.data_find_input1_1{
+    position: relative;
+    left: 46%;
+    padding-bottom: 15px;
+}
+.data_find_input1_1 input{
+    width: 225px;
+    text-align: center;
+    font-family: neosanspro_medium;
+    font-size: 12px;
+    height: 30px;
+    opacity: 1;
+    border: 1px solid #C6C9E1;
+    color: #BFBFBF;
+}
+
+.have_to_find_text2{
+    padding-bottom: 11px;
+}
+.have_to_find_text2 h3{
+    font-family: neosanspro_medium;
+    font-size: 18px;
+    text-align: center;
+}
+
+.data_find_input2_1{
+    padding-bottom: 15px;
+}
+.data_find_input2_1 input{
+    width: 225px;
+    text-align: center;
+    font-family: neosanspro_medium;
+    font-size: 12px;
+    height: 30px;
+    opacity: 1;
+    border: 1px solid #C6C9E1;
+    color: #BFBFBF;
+}
+
+
+
+.have_to_find_text3{
+     padding-bottom: 8px;
+ }
+.have_to_find_text3 h3{
+    font-family: neosanspro_medium;
+    font-size: 18px;
+    position: relative;
+    right: 9%;
+}
+
+.have_to_find_text3_1{
+    padding-bottom: 9px;
+}
+.have_to_find_text3_1 h3{
+    font-family: neosanspro_medium;
+    font-size: 18px;
+    position: relative;
+    right: 27%;
+    text-align: center;
+}
+
+.data_find_input3_1{
+    padding-bottom: 15px;
+    position: relative;
+    right: 8%;
+}
+.data_find_input3_3{
+    padding-bottom: 5px;
+    position: relative;
+    right: 8%;
+}
+.data_find_input3_1 input,
+.data_find_input3_3 input,
+.data_find_input3_4 input{
+    width: 225px;
+    text-align: center;
+    font-family: neosanspro_medium;
+    font-size: 12px;
+    height: 30px;
+    opacity: 1;
+    border: 1px solid #C6C9E1;
+    color: #BFBFBF;
+}
+
+.data_find_select3_1{
+    position: relative;
+    right: 8%;
+    padding-bottom: 15px;
+}
+
+.data_find_select3_1 select{
+    width: 225px;
+    text-align: center;
+    font-family: neosanspro_medium;
+    font-size: 12px;
+    height: 30px;
+    opacity: 1;
+    border: 1px solid #C6C9E1;
+    color: #BFBFBF;
+}
+.data_find_input3_4{
+    padding-bottom: 27px;
+    position: relative;
+    right: 8%;
+}
+/********************/
+
+#row1, #row2, #row3, #row4{
+    display: none;
+    /*overflow: hidden;*/
+    /*height: 0;*/
+    /*transition: all 0.5s ease-in 0.5s;*/
+}
+
+#row1.active, #row2.active, #row3.active, #row4.active{
+    /*height: 500px;*/
+    /*transition: all 0.5s ease-in 0.5s;*/
+}
+
 /***********FOOTER***************/
 .signature{
     color: gray;
