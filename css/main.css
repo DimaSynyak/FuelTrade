@@ -34,8 +34,8 @@ html{
 
 body{
     margin: 0;
-    /*background-image: url("/image/main_1170px.png");*/
-    background-image: url("/image/background.jpg");
+    /*background-images: url("/images/main_1170px.png");*/
+    background-image: url("/images/background.jpg");
     background-size: 1300px auto;
     background-repeat: no-repeat;
 }
@@ -275,7 +275,7 @@ body{
 }
 
 .signature3 p::after{
-    content: url("/image/web_studio.png");
+    content: url("/images/web_studio.png");
     display: block;
     float: right;
 }

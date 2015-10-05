@@ -34,8 +34,8 @@ html{
 
 body{
     margin: 0;
-    /*background-image: url("/image/kabinet-1170px.jpg");*/
-    /*background-image: url("/image/background.jpg");*/
+    /*background-images: url("/images/kabinet-1170px.jpg");*/
+    /*background-images: url("/images/background.jpg");*/
     background-size: 1300px auto;
     background-repeat: no-repeat;
 }
@@ -43,7 +43,7 @@ body{
 .background_left{
     position: absolute;
     left: 0px;
-    background-image: url("/image/background_left.png");
+    background-image: url("/images/background_left.png");
     background-repeat: no-repeat;
     width: 260px;
     height: 800px;
@@ -52,7 +52,7 @@ body{
 .background_right{
     position: absolute;
     right: 0px;
-    background-image: url("/image/background_right.png");
+    background-image: url("/images/background_right.png");
     background-repeat: no-repeat;
     width: 260px;
     height: 800px;
@@ -300,7 +300,7 @@ body{
 }
 
 .signature3 p::after{
-    content: url("/image/web_studio.png");
+    content: url("/images/web_studio.png");
     display: block;
     float: right;
 }
